@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29020.237
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatMash.API", "CatMash.API\CatMash.API.csproj", "{002C664D-AB81-4849-B93B-2C971AC9A83D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatMash.MVC", "CatMash.MVC\CatMash.MVC.csproj", "{54ACACD0-A769-46D9-B7C8-847913D8B328}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{002C664D-AB81-4849-B93B-2C971AC9A83D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{002C664D-AB81-4849-B93B-2C971AC9A83D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{002C664D-AB81-4849-B93B-2C971AC9A83D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{002C664D-AB81-4849-B93B-2C971AC9A83D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54ACACD0-A769-46D9-B7C8-847913D8B328}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54ACACD0-A769-46D9-B7C8-847913D8B328}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54ACACD0-A769-46D9-B7C8-847913D8B328}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54ACACD0-A769-46D9-B7C8-847913D8B328}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {86C6169F-75DA-4E49-B772-C37C7306F058}
+	EndGlobalSection
+EndGlobal
