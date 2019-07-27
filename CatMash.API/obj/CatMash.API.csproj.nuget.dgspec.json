@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Moutii Khaled\\Desktop\\ProjectCat\\CatMash\\CatMash.API\\CatMash.API.csproj": {}
+    "C:\\Projects\\CatMash\\CatMash.API\\CatMash.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Moutii Khaled\\Desktop\\ProjectCat\\CatMash\\CatMash.API\\CatMash.API.csproj": {
+    "C:\\Projects\\CatMash\\CatMash.API\\CatMash.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Moutii Khaled\\Desktop\\ProjectCat\\CatMash\\CatMash.API\\CatMash.API.csproj",
+        "projectUniqueName": "C:\\Projects\\CatMash\\CatMash.API\\CatMash.API.csproj",
         "projectName": "CatMash.API",
-        "projectPath": "C:\\Users\\Moutii Khaled\\Desktop\\ProjectCat\\CatMash\\CatMash.API\\CatMash.API.csproj",
+        "projectPath": "C:\\Projects\\CatMash\\CatMash.API\\CatMash.API.csproj",
         "packagesPath": "C:\\Users\\Moutii Khaled\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Moutii Khaled\\Desktop\\ProjectCat\\CatMash\\CatMash.API\\obj\\",
+        "outputPath": "C:\\Projects\\CatMash\\CatMash.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -56,6 +56,10 @@
               "target": "Package",
               "version": "[2.1.0, )",
               "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[2.1.9, )"
             }
           },
           "imports": [
