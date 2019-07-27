@@ -9,14 +9,14 @@ namespace CatMash.API.Utils
 {
     public static class VoteMapper
     {
-        public static TVote Map(VoteDto vote)
+        public static Vote Map(VoteDto vote)
         {
             if (vote == null)
             {
                 return null;
             }
 
-            return new TVote
+            return new Vote
             {
                 LostCatId = vote.LoserCatId,
                 WinCatId = vote.WinnerCatId,

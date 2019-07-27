@@ -11803,11 +11803,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projects\\CatMash\\CatMash.MVC\\CatMash.MVC.csproj",
+      "projectUniqueName": "C:\\Users\\Moutii Khaled\\Desktop\\private\\CatMash\\CatMash.MVC\\CatMash.MVC.csproj",
       "projectName": "CatMash.MVC",
-      "projectPath": "C:\\Projects\\CatMash\\CatMash.MVC\\CatMash.MVC.csproj",
+      "projectPath": "C:\\Users\\Moutii Khaled\\Desktop\\private\\CatMash\\CatMash.MVC\\CatMash.MVC.csproj",
       "packagesPath": "C:\\Users\\Moutii Khaled\\.nuget\\packages\\",
-      "outputPath": "C:\\Projects\\CatMash\\CatMash.MVC\\obj\\",
+      "outputPath": "C:\\Users\\Moutii Khaled\\Desktop\\private\\CatMash\\CatMash.MVC\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

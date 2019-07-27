@@ -16,37 +16,37 @@ namespace CatMash.API.DataAccess.DatabaseContext
         {
         }
 
-        public virtual DbSet<TCat> TCat { get; set; }
-        public virtual DbSet<TVote> TVote { get; set; }
+        public virtual DbSet<Cat> Cats { get; set; }
+        public virtual DbSet<Vote> Votes { get; set; }
 
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<TCat>(entity =>
+            modelBuilder.Entity<Cat>(entity =>
             {
                 entity.HasKey(e => e.CatId);
 
-                entity.ToTable("T_Cat");
+                entity.ToTable("Cats");
 
                 entity.Property(e => e.Url).IsRequired();
             });
 
-            modelBuilder.Entity<TVote>(entity =>
+            modelBuilder.Entity<Vote>(entity =>
             {
                 entity.HasKey(e => e.VoteId);
 
-                entity.ToTable("T_Vote");
+                entity.ToTable("Votes");
 
                 entity.Property(e => e.CreationDate).HasColumnType("datetime");
 
                 entity.HasOne(d => d.LostCat)
-                    .WithMany(p => p.TVoteLostCat)
+                    .WithMany(p => p.VoteLostCat)
                     .HasForeignKey(d => d.LostCatId)
                     .OnDelete(DeleteBehavior.ClientSetNull)
                     .HasConstraintName("FK_Vote_LostCat_CatId");
 
                 entity.HasOne(d => d.WinCat)
-                    .WithMany(p => p.TVoteWinCat)
+                    .WithMany(p => p.VoteWinCat)
                     .HasForeignKey(d => d.WinCatId)
                     .OnDelete(DeleteBehavior.ClientSetNull)
                     .HasConstraintName("FK_Vote_WinCat_CatId");

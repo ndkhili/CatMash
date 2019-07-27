@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projects\\CatMash\\CatMash.API\\CatMash.API.csproj": {}
+    "C:\\Users\\Moutii Khaled\\Desktop\\private\\CatMash\\CatMash.API\\CatMash.API.csproj": {}
   },
   "projects": {
-    "C:\\Projects\\CatMash\\CatMash.API\\CatMash.API.csproj": {
+    "C:\\Users\\Moutii Khaled\\Desktop\\private\\CatMash\\CatMash.API\\CatMash.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\CatMash\\CatMash.API\\CatMash.API.csproj",
+        "projectUniqueName": "C:\\Users\\Moutii Khaled\\Desktop\\private\\CatMash\\CatMash.API\\CatMash.API.csproj",
         "projectName": "CatMash.API",
-        "projectPath": "C:\\Projects\\CatMash\\CatMash.API\\CatMash.API.csproj",
+        "projectPath": "C:\\Users\\Moutii Khaled\\Desktop\\private\\CatMash\\CatMash.API\\CatMash.API.csproj",
         "packagesPath": "C:\\Users\\Moutii Khaled\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\CatMash\\CatMash.API\\obj\\",
+        "outputPath": "C:\\Users\\Moutii Khaled\\Desktop\\private\\CatMash\\CatMash.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -9,7 +9,7 @@ namespace CatMash.API.Utils
 { 
     public static class CatMapper
     {
-        public static CatDto ToModelCat(this TCat cat)
+        public static CatDto ToModelCat(this Cat cat)
         {
             if (cat == null)
                 return null;

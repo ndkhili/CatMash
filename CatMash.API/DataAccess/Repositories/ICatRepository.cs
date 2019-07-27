@@ -8,12 +8,12 @@ namespace CatMash.API.DataAccess.Repositories
 {
     public interface ICatRepository
     {
-        TCat GetCatById(int id);
+        Cat GetCatById(int id);
 
-        IEnumerable<TCat> GetAllCat();
+        IEnumerable<Cat> GetAllCat();
 
-        int AddVote(TVote vote);
+        int AddVote(Vote vote);
 
-        TCat GetRandomCat();
+        Cat GetRandomCat();
     }
 }

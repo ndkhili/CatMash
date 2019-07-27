@@ -30,7 +30,7 @@ namespace CatMash.API.Business
                 {
                     Id = cat.CatId,
                     Url = cat.Url,
-                    Score = ScoreCalculator.CalculateScore(cat.TVoteWinCat.Count(), cat.TVoteLostCat.Count())
+                    Score = ScoreCalculator.CalculateScore(cat.VoteWinCat.Count(), cat.VoteLostCat.Count())
                 });
             }
 
@@ -70,9 +70,9 @@ namespace CatMash.API.Business
 
         }
 
-        public bool InsertVote(VoteDto voteRequest)
+        public bool InsertVote(VoteDto voteDto)
         {
-            var vote = VoteMapper.Map(voteRequest);
+            var vote = VoteMapper.Map(voteDto);
             var updateCount = _catRepository.AddVote(vote);
 
             return updateCount > 0;

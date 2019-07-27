@@ -17,22 +17,22 @@ namespace CatMash.API.DataAccess.Repositories
             _catDbContext = catDbContext;
         }
         
-        public IEnumerable<TCat> GetAllCat()
+        public IEnumerable<Cat> GetAllCat()
         {
-            return _catDbContext.TCat.Include(c=> c.TVoteLostCat).Include(cc=>cc.TVoteWinCat);
+            return _catDbContext.Cats.Include(c=> c.VoteLostCat).Include(cc=>cc.VoteWinCat);
         }
 
-        public TCat GetCatById(int id)
+        public Cat GetCatById(int id)
         {
             if (id <= 0)
             {
                 return null;
             }
 
-            return _catDbContext.TCat.Where(c => c.CatId == id).FirstOrDefault();
+            return _catDbContext.Cats.Where(c => c.CatId == id).FirstOrDefault();
         }
 
-        public int AddVote(TVote vote)
+        public int AddVote(Vote vote)
         {
             if(vote == null)
             {
@@ -44,19 +44,19 @@ namespace CatMash.API.DataAccess.Repositories
                 throw new Exception($"Invalid Vote. WinCatId: {vote.WinCatId} / LostCatId: {vote.LostCatId}");
             }
 
-            if (_catDbContext.TCat.Where(c => c.CatId == vote.WinCatId).Count() <= 0)
+            if (_catDbContext.Cats.Where(c => c.CatId == vote.WinCatId).Count() <= 0)
             {
                 throw new Exception($"Cat Not Found for this Vote. CatId : {vote.WinCatId}");
             }
 
-            if (_catDbContext.TCat.Where(c => c.CatId == vote.LostCatId).Count() <= 0)
+            if (_catDbContext.Cats.Where(c => c.CatId == vote.LostCatId).Count() <= 0)
             {
                 throw new Exception($"Cat Not Found for this Vote. CatId : {vote.LostCatId}");
             }
 
             try
             {
-                _catDbContext.TVote.Add(vote);
+                _catDbContext.Votes.Add(vote);
 
                 return _catDbContext.SaveChanges();
             }
@@ -66,11 +66,11 @@ namespace CatMash.API.DataAccess.Repositories
             }
         }
         
-        public TCat GetRandomCat()
+        public Cat GetRandomCat()
         {
             var random = new Random();
-            var skip = (int)(random.NextDouble() * _catDbContext.TCat.Count());
-            return _catDbContext.TCat.OrderBy(c=> c.CatId).Skip(skip).Take(1).First();
+            var skip = (int)(random.NextDouble() * _catDbContext.Cats.Count());
+            return _catDbContext.Cats.OrderBy(c=> c.CatId).Skip(skip).Take(1).First();
         }
     }
 }
