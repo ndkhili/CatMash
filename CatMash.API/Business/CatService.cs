@@ -18,7 +18,7 @@ namespace CatMash.API.Business
             _catRepository = catRepository;
         }
 
-        public IEnumerable<CatDto> GetCatScores()
+        public GetCatScoresResponseDto GetCatScores()
         {
             var dbCats = _catRepository.GetAllCat();
 
@@ -34,7 +34,7 @@ namespace CatMash.API.Business
                 });
             }
 
-            return cats.OrderByDescending(c => c.Score?.Value);
+            return new GetCatScoresResponseDto { Cats = cats.OrderByDescending(c => c.Score?.Value) };
 
         }
 

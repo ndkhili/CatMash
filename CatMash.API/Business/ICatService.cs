@@ -8,7 +8,7 @@ namespace CatMash.API.Business
 { 
     public interface ICatService
     {
-        IEnumerable<CatDto> GetCatScores();
+        GetCatScoresResponseDto GetCatScores();
 
         bool InsertVote(VoteDto vote);
 

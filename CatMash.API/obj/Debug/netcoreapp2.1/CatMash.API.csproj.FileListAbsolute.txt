@@ -12,3 +12,17 @@ C:\Projects\CatMash\CatMash.API\obj\Debug\netcoreapp2.1\CatMash.API.RazorTargetA
 C:\Projects\CatMash\CatMash.API\bin\Debug\netcoreapp2.1\CatMash.API.pdb
 C:\Projects\CatMash\CatMash.API\obj\Debug\netcoreapp2.1\CatMash.API.dll
 C:\Projects\CatMash\CatMash.API\obj\Debug\netcoreapp2.1\CatMash.API.pdb
+C:\Users\Moutii Khaled\Desktop\private\CatMash\CatMash.API\bin\Debug\netcoreapp2.1\CatMash.API.deps.json
+C:\Users\Moutii Khaled\Desktop\private\CatMash\CatMash.API\bin\Debug\netcoreapp2.1\CatMash.API.runtimeconfig.json
+C:\Users\Moutii Khaled\Desktop\private\CatMash\CatMash.API\bin\Debug\netcoreapp2.1\CatMash.API.runtimeconfig.dev.json
+C:\Users\Moutii Khaled\Desktop\private\CatMash\CatMash.API\bin\Debug\netcoreapp2.1\CatMash.API.dll
+C:\Users\Moutii Khaled\Desktop\private\CatMash\CatMash.API\bin\Debug\netcoreapp2.1\CatMash.API.pdb
+C:\Users\Moutii Khaled\Desktop\private\CatMash\CatMash.API\obj\Debug\netcoreapp2.1\CatMash.API.csprojAssemblyReference.cache
+C:\Users\Moutii Khaled\Desktop\private\CatMash\CatMash.API\obj\Debug\netcoreapp2.1\CatMash.API.csproj.CoreCompileInputs.cache
+C:\Users\Moutii Khaled\Desktop\private\CatMash\CatMash.API\obj\Debug\netcoreapp2.1\CatMash.API.RazorAssemblyInfo.cache
+C:\Users\Moutii Khaled\Desktop\private\CatMash\CatMash.API\obj\Debug\netcoreapp2.1\CatMash.API.RazorAssemblyInfo.cs
+C:\Users\Moutii Khaled\Desktop\private\CatMash\CatMash.API\obj\Debug\netcoreapp2.1\CatMash.API.AssemblyInfoInputs.cache
+C:\Users\Moutii Khaled\Desktop\private\CatMash\CatMash.API\obj\Debug\netcoreapp2.1\CatMash.API.AssemblyInfo.cs
+C:\Users\Moutii Khaled\Desktop\private\CatMash\CatMash.API\obj\Debug\netcoreapp2.1\CatMash.API.RazorTargetAssemblyInfo.cache
+C:\Users\Moutii Khaled\Desktop\private\CatMash\CatMash.API\obj\Debug\netcoreapp2.1\CatMash.API.dll
+C:\Users\Moutii Khaled\Desktop\private\CatMash\CatMash.API\obj\Debug\netcoreapp2.1\CatMash.API.pdb
